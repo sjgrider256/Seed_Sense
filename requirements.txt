@@ -1,0 +1,25 @@
+# Core notebook environment
+jupyterlab
+notebook
+ipykernel
+
+# Data handling
+numpy
+pandas
+
+# Image handling
+Pillow
+
+# Deep learning
+torch
+torchvision
+
+# Geospatial raster/vector processing
+rasterio
+geopandas
+shapely
+pyproj
+pyogrio
+
+# Plotting / QC visualization
+matplotlib
