@@ -2,6 +2,7 @@
 jupyterlab
 notebook
 ipykernel
+nbconvert
 
 # Data handling
 numpy
