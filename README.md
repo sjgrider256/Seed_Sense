@@ -20,11 +20,15 @@ python Run_all.py
    ```bash
    git clone https://github.com/sjgrider256/Seed_Sense.git
    ```
-navigate to the repo directory in terminal
+   then navigate to the repo directory
 
 2. Install dependencies
    ```bash
    pip install -r requirements.txt
    ```
 3. Upload your orthomosaic tif file to Data/Geotiffs
-4. python Run_all.py
+4. Run all notebooks
+    ```bash
+   python Run_all.py
+   ```
+   Files are saved to Data > Output
