@@ -16,18 +16,18 @@ pip install -r requirements.txt
 python Run_all.py
 
 
-1. Clone this repository:
+1. Open a terminal (PowerShell, Command Prompt, Bash, etc.)
+2. Navigate to the directory where you want to clone the repository: "cd [your directory path] "
+3. 3. Clone ths repository:
    ```bash
    git clone https://github.com/sjgrider256/Seed_Sense.git
    ```
-   then navigate to the repo directory
-
-2. Install dependencies
+4. Install dependencies
    ```bash
    pip install -r requirements.txt
    ```
-3. Upload your orthomosaic tif file to Data/Geotiffs
-4. Run all notebooks
+5. Upload your orthomosaic tif file to Seed_Sense/Data/Geotiffs. A downsized sample geotif file is included by default for demonstration purposes; you must delete and replace this file to make predicitons on you own geotiff.
+6. Run all notebooks
     ```bash
    python Run_all.py
    ```
