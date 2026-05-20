@@ -18,8 +18,7 @@ python Run_all.py
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/lzillmer/CSE-6242-Project.git
-   cd CSE-6242-Project
+   git clone https://github.com/sjgrider256/Seed_Sense.git
    ```
 navigate to the repo directory in terminal
 
