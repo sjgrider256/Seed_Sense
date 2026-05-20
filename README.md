@@ -17,7 +17,7 @@ python Run_all.py
 
 
 1. Open a terminal (PowerShell, Command Prompt, Bash, etc.)
-2. Navigate to the directory where you want to clone the repository: "cd __your directory path__ "
+2. Navigate to the directory where you want to clone the repository: "cd ______ "
 3. Clone ths repository:
    ```bash
    git clone https://github.com/sjgrider256/Seed_Sense.git
