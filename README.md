@@ -10,6 +10,8 @@ Attaining an accurate measure of seedling survival is an essential step in manag
 
 A model capable of identifying seedlings directly from drone orthophotography provides a substantially larger sample size while allowing areas of concern to be spatially identified and mapped. The results can be used independently or in combination with traditional plot sampling to produce a more accurate representation of seedling survival in an efficient and cost-effective manner.
 
+![Screenshot](images/Screenshot%202025-06-05%20095418.png)
+
 # Quick Start Guide
 
 1. Open a terminal (PowerShell, Command Prompt, Bash, etc.)
