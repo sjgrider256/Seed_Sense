@@ -4,13 +4,13 @@ Seed_Sense is a lightweight geospatial deep learning pipeline for automated pine
 
 The pipeline is designed to run sequentially on a local machine with minimal user interaction. Users place GeoTIFF imagery into the `Data/Geotiffs` directory, install the required dependencies, and execute the pipeline using a single command.
 
-# Purpose
+# About
 
 Attaining an accurate measure of seedling survival is an essential step in managing pine plantations. The most common method used to estimate seedling survival is boots-on-the-ground plot sampling. This method is expensive and time-consuming, and sampling intensity is often kept low to reduce operational costs.
 
 A model capable of identifying seedlings directly from drone orthophotography provides a substantially larger sample size while allowing areas of concern to be spatially identified and mapped. The results can be used independently or in combination with traditional plot sampling to produce a more accurate representation of seedling survival in an efficient and cost-effective manner.
 
-![Output](Help%20docs/IMGs/Untitled_design.png)
+![Output](Help%20docs/IMGs/Output_viz.png)
 
 
 # Quick Start Guide
