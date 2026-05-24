@@ -17,35 +17,31 @@ A model capable of identifying seedlings directly from drone orthophotography pr
 
 1. Open a terminal (PowerShell, Command Prompt, Bash, etc.)
 
-2. Navigate to the location where you want to download the repository.
+2. Navigate to the filepath you want to host the repository.
 
-3. Clone the repository:
+3. Clone the repository: 
 
 ```bash
 git clone https://github.com/sjgrider256/Seed_Sense.git
 ```
 
-4. Install dependencies:
+4. Install dependencies. This process may take 10-20 minutes depending on your machine
 
 ```bash
 pip install -r requirements.txt
 ```
 
-5. Upload your orthomosaic `.tif` file to:
+5. Manually upload (drag and drop) your orthomosaic `.tif` file to "Seed_Sense/Data/Geotiffs"
 
-```text
-Seed_Sense/Data/Geotiffs
-```
+   Note: A downsized sample GeoTIFF is included by default for demonstration purposes. Delete and replace this file to generate predictions on your own orthomosaic.
 
-A downsized sample GeoTIFF is included by default for demonstration purposes. Delete and replace this file to generate predictions on your own orthomosaic.
-
-6. Run the pipeline:
+7. Run the pipeline by entering in your commandline:
 
 ```bash
 python Run_all.py
 ```
 
-Prediction outputs and intermediate files are saved to:
+Prediction outputs (GeoJSON & Shapefiles) are saved to:
 
 ```text
 Data/Output
