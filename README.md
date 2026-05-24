@@ -50,6 +50,12 @@ Prediction outputs and intermediate files are saved to:
 ```text
 Data/Output
 ```
+# Dependencies
+
+Python 3.11 of higher
+```bash
+https://www.python.org/downloads/
+```
 
 # Acknowledgments
 
