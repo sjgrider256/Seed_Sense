@@ -25,13 +25,15 @@ A model capable of identifying seedlings directly from drone orthophotography pr
 git clone https://github.com/sjgrider256/Seed_Sense.git
 ```
 
-4. Install dependencies. This process may take 10-20 minutes depending on your machine
+4. Navigate to your root directory
+   
+5. Install dependencies. This process may take 10-20 minutes depending on your machine
 
 ```bash
 pip install -r requirements.txt
 ```
 
-5. Manually upload (drag and drop) your orthomosaic `.tif` file to "Seed_Sense/Data/Geotiffs"
+6. Manually upload (drag and drop) your orthomosaic `.tif` file to "Seed_Sense/Data/Geotiffs"
 
    Note: A downsized sample GeoTIFF is included by default for demonstration purposes. Delete and replace this file to generate predictions on your own orthomosaic.
 
