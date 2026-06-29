@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Seed shaped as a water droplet (dark green) -->
+  <path
+    d="M32 4 C 40 18 54 28 54 40 A 22 22 0 1 1 10 40 C 10 28 24 18 32 4 Z"
+    fill="#14532d"
+  />
+  <!-- Quadcopter drone (white), top-down view -->
+  <g stroke="#ffffff" stroke-width="2.4" stroke-linecap="round" fill="none">
+    <!-- arms -->
+    <line x1="32" y1="42" x2="21" y2="33" />
+    <line x1="32" y1="42" x2="43" y2="33" />
+    <line x1="32" y1="42" x2="21" y2="51" />
+    <line x1="32" y1="42" x2="43" y2="51" />
+    <!-- rotors -->
+    <circle cx="21" cy="33" r="4.4" />
+    <circle cx="43" cy="33" r="4.4" />
+    <circle cx="21" cy="51" r="4.4" />
+    <circle cx="43" cy="51" r="4.4" />
+  </g>
+  <!-- drone body -->
+  <circle cx="32" cy="42" r="3.4" fill="#ffffff" />
+</svg>

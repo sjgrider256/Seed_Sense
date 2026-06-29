@@ -37,6 +37,8 @@ pip install -r requirements.txt
 
    Note: A downsized sample GeoTIFF is included by default for demonstration purposes. Delete and replace this file to generate predictions on your own orthomosaic.
 
+   > **Coordinate system requirement:** the input orthomosaic must be in a **WGS84 / UTM** projected coordinate system (EPSG `326xx` for northern zones or `327xx` for southern zones). Geographic WGS84 (EPSG:4326) and Web Mercator (EPSG:3857) are also accepted. Imagery in any other CRS must be reprojected to the appropriate WGS84/UTM zone before running the pipeline, otherwise the map viewer cannot display the results.
+
 7. Run the pipeline by entering in your commandline:
 
 ```bash
@@ -48,6 +50,32 @@ Prediction outputs (GeoJSON & Shapefiles) are saved to:
 ```text
 Data/Output
 ```
+
+# Visualization
+
+An interactive map viewer is included to explore your results. It displays each tile shaded by its seedling count (light = few seedlings, dark blue = many), with the count labeled on every tile and a color legend. Two optional layers can be toggled on from the top-right corner of the map:
+
+- **Seedling points** — every individual detected seedling.
+- **Orthomosaic** — your source imagery shown beneath the results for context.
+
+To launch the viewer, first install [Node.js](https://nodejs.org) (version 18 or higher), then run from your root directory:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Open the address shown in the terminal (for example, `http://localhost:5173`) in your web browser. Each time you start the viewer it loads the latest results produced by the pipeline.
+
+The optional orthomosaic layer requires a one-time preparation step, because the original imagery is too large to display directly. Generate a lightweight web version of your imagery by running from your root directory:
+
+```bash
+python tools/prepare_ortho.py
+```
+
+Re-run this command whenever you change the input imagery.
+
 # Dependencies
 
 Python 3.11 of higher
