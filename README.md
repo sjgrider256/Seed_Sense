@@ -56,7 +56,13 @@ Data/Output
 An interactive map viewer is included to explore your results. It displays each tile shaded by its seedling count (light = few seedlings, dark blue = many), with the count labeled on every tile and a color legend. Two optional layers can be toggled on from the top-right corner of the map:
 
 - **Seedling points** — every individual detected seedling.
-- **Orthomosaic** — your source imagery shown beneath the results for context.
+- **Orthomosaic (optional)** — your source imagery shown beneath the results for context.
+
+The orthomosaic layer requires a one-time preparation step, because the original imagery is too large to display directly. Generate a lightweight web version of your imagery by running from your root directory:
+
+```bash
+python tools/prepare_ortho.py
+```
 
 To launch the viewer, first install [Node.js](https://nodejs.org) (version 18 or higher), then run from your root directory:
 
@@ -68,13 +74,7 @@ npm run dev
 
 Open the address shown in the terminal (for example, `http://localhost:5173`) in your web browser. Each time you start the viewer it loads the latest results produced by the pipeline.
 
-The optional orthomosaic layer requires a one-time preparation step, because the original imagery is too large to display directly. Generate a lightweight web version of your imagery by running from your root directory:
 
-```bash
-python tools/prepare_ortho.py
-```
-
-Re-run this command whenever you change the input imagery.
 
 # Dependencies
 
