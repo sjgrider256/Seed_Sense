@@ -15,6 +15,9 @@ A model capable of identifying seedlings directly from drone orthophotography pr
 
 # Quick Start Guide
 
+Demo walk-through video: 
+   https://youtu.be/IdbWRfSXoh8
+
 1. Open a terminal (PowerShell, Command Prompt, Bash, etc.)
 
 2. Navigate to the filepath you want to host the repository.
